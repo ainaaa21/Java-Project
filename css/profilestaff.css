@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: comic sans ms, cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #c1cfa0;
+}
+
+.header {
+    text-align: center;
+    letter-spacing: 8px;
+    background: #495a21;
+    color: #fdfcfd;
+    padding: 15px;
+    width: 100%;
+}
+
+.logout {
+    background-color: #3460a4;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 100vw;
+}
+
+.column.side {
+    width: 10vw;
+    height: 100%;
+    background-color: #c1cfa0;
+}
+
+.column.middle {
+    width: 80vw;
+    background-color: #eaefdf;
+    position: relative;
+}
+
+.navbar {
+    background-color: #dbf4a1;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px;
+    color: #495a21;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #4f4828;
+    color: white;
+    font-weight: bold;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.editprofile {
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    transform: translateX(-50%);
+    padding: 0;
+    border: none;
+    text-align: center;
+    line-height: 1.2;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    background-color: #DBF4A1;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.editprofile a {
+    text-decoration: none; /* Remove the underline from the anchor tag */
+    color: black; /* Set the initial text color */
+}
+
+.editprofile a:hover {
+    background-color: #95C56F;
+    border-radius: 30px;
+    color: white;
+}
+.design {
+    position: relative; /* Make it a positioning context for absolute positioning */
+}
+
+.design .staff2-image {
+    position: absolute; /* Position it absolutely */
+    top: 60px; /* Place it at the top of the .design container */
+    left: 30px; /* Align it to the left of the .design container */
+    width: 10px; /* Set a fixed width for the image */
+    height: auto; /* Allow the height to adjust proportionally */
+    margin-top: 20px; /* Adjust the top margin for the image */
+    margin-left: 20px; /* Adjust the left margin for the image */
+}
+

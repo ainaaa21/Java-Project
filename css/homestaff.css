@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: comic sans ms, cursive;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	background: #C1CFA0;
+}
+
+.header {
+	text-align: center;
+	letter-spacing: 8px;
+	background: #495a21;
+	color: #fdfcfd;
+	padding: 15px;
+	width: 100%;
+}
+
+.logout {
+	background-color: #3460a4;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	position: absolute;
+	cursor: pointer;
+	top: 35px;
+	right: 15px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+	height: 100vw;
+}
+
+.column.side {
+	width: 10vw;
+	height: 100%;
+	background-color: #C1CFA0; /* Updated color for side columns */
+}
+
+.column.middle {
+	width: 80vw;
+	background-color: #EAEFDF; /* Updated color for middle column */
+  position: relative; /* Make it a positioning context for absolute positioning */
+}
+
+.navbar {
+	background-color: #DBF4A1; /* Color for the navigation bar */
+	border-radius: 30px;
+	text-align: center;
+}
+
+.nav-link {
+	display: inline-block;
+	padding: 10px;
+	color: #495a21;
+	text-decoration: none;
+}
+
+.nav-link.active {
+	color: black; /* Set a text color for the active link */
+	font-weight: bold; /* Make the text bold for the active link */
+}
+
+.navbar a:hover {
+	background-color: #4f4828;
+	color: white;
+	font-weight: bold;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.editprofile {
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    line-height: 1.2;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    background-color: #DBF4A1;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.editprofile a {
+    text-decoration: none; /* Remove the underline from the anchor tag */
+    color: black; /* Set the initial text color */
+}
+
+.editprofile a:hover {
+    background-color: #95C56F;
+    border-radius: 30px;
+    color: white;
+}
+.design {
+    position: relative; /* Make it a positioning context for absolute positioning */
+}
+
+.staff1-image {
+    max-width: 37%;
+    height: 70%;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.staff2-image {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    max-width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+}

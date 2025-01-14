@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>Camp Management System Customer Main Page</title>
+    <!-- <link rel="stylesheet" href="custMain.css">  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Roboto, Arial;
+      margin: 0px;
+    }
+
+    .header {
+      padding: 1px;
+      text-align: center;
+      letter-spacing: 8px;
+      background: #495a21;
+      color: #fdfcfd;
+      position: relative; /* Add position: relative; to the .header */
+    }
+
+    .logout {
+      background-color: #3460a4;
+      color: white;
+      border-radius: 20px;
+      padding: 10px;
+      position: absolute; /* Add position: absolute; */
+      top: 60%; /* Position it vertically at 50% from the top */
+      transform: translateY(-50%); /* Adjust vertical positioning */
+      right: 20px; /* Adjust the right margin as needed */
+      cursor: pointer;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: #dbf4a1;
+    }
+
+    .navbar a{
+      flex: 100%;
+      color: #181b12;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+     
+    }
+
+    .navbar a:hover {
+      background-color: #4f4828;
+      color: white;
+      font-weight: bold;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .side {
+      flex: 10%;
+      background-color: #c1cfa0;
+      padding: 20px;
+    }
+
+    .main {
+      flex: 80%;
+      background-color: #eaefdf;
+      padding: 20px;
+      position: relative;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 35px 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .adult,
+    .children {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 8px;
+    }
+
+    .search {
+      display: flex;
+      justify-content: center;
+    }
+
+    .searchB {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 50px 10px 20px;
+      text-decoration: none;
+    }
+
+    .hello {
+      font-size: 150px;
+      
+    }
+
+    .tent {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+    }
+
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+
+
+  </style>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>CUSTOMER'S MAIN PAGE</h1>
+      <button class="logout"> LOGOUT</button>
+    </div>
+
+    <div class="navbar">
+      <a href="custMain.html" >Home</a>
+      <a href="custViewProfile.html" >Profile</a>
+      <a href="custSearch.html" >Book Campsite</a>
+      <a href="custHistory.html" >History of Past Booking</a>
+    </div>
+
+    <div class="row">
+      <div class="side">
+        
+      </div>
+
+      <div class="main">
+        <h3>CampBersama.co</h3>
+
+        <div class="availability">
+
+          <form>
+            <input class="adult" type="number" placeholder="Number of Adults">
+            <input class="children" type="number" placeholder="Number of Children"><br>
+
+            <div class="search">
+            <a href="bookingForm.html" class="searchB">SEARCH</a>
+            </div>
+          </form>
+
+        </div>
+        
+      </div>
+
+      <div class="side">
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+
+  </body>
+</html>

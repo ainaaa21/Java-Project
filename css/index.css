@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    flex: 1; /* Allocate more space to left-side */
+    background-color: #F9F5F5;
+    display: flex;
+}
+
+.camp-image1 {
+    max-width: 50%;
+    max-height: 9%;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.camp-image2 {
+    max-width: 300%;
+    max-height: 100%;
+    margin-top: 120px;
+    margin-left: -200px;
+    margin-right: 100px;
+}
+
+.camp-image3 {
+    max-width: 40%;
+    max-height: 15%;
+    margin-top: 120px;
+    margin-left: -650px;
+    border-radius: 7px;
+}
+
+.right-side {
+    flex: 1;
+    background-color: #454B1B;
+    color: #fff; /* Optional: Set text color for better readability on dark background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 80px 5px 5px 15px; /* Adjust the top, right, bottom, and left margins as needed */
+    padding: 20px;
+}
+
+.subtitle {
+    font-size: 15px; /* Adjust the font size as needed */
+    margin: 10px 5px 30px;
+    padding: 0 20px;
+}
+
+.login-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #F9F5F5;
+    color: #744C4D;
+    border: none;
+    border-radius: 50px; /* This creates an oval shape */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    width: 200px; /* Adjust the width as needed */
+    text-align: center; /* Center the text horizontally */
+}
+
+.login-button:hover {
+    background-color: #D8CECE; /* Darker color on hover */
+}
+
+.signup-text {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.signup-text a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+.camp {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+}

@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    flex: 1; /* Allocate more space to left-side */
+    background-color: #F9F5F5;
+    display: flex;
+}
+
+.camp-image1 {
+    max-width: 50%;
+    max-height: 9%;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.camp-image2 {
+    max-width: 300%;
+    max-height: 100%;
+    margin-top: 120px;
+    margin-left: -200px;
+    margin-right: 100px;
+}
+
+.camp-image3 {
+    max-width: 40%;
+    max-height: 15%;
+    margin-top: 120px;
+    margin-left: -650px;
+    border-radius: 7px;
+}
+
+.right-side {
+    flex: 1;
+    background-color: #454B1B;
+    color: #fff; /* Optional: Set text color for better readability on dark background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camp {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.login-title {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.oval-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    
+}
+
+.oval-fields div {
+    margin-top: 20px;
+}
+
+
+.oval-fields input[type="email"],
+.oval-fields input[type="password"],
+.oval-fields select {
+    background-color: #F9F5F5; /* Set background color for fields */
+    color: #744C4D;
+    border: none;
+    border-radius: 20px; /* Apply oval shape */
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.oval-fields input[type="submit"] {
+    background-color: #F9F5F5;
+    color: #744C4D;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 10px 60px;
+    width: 100px; /* Adjust the width as needed */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+}
+
+.oval-fields input[type="submit"]:hover {
+    background-color: #D8CECE; /* Darker color on hover */
+    color: #000; /* Darker text color on hover */
+}
