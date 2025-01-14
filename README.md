@@ -26,5 +26,3 @@ A Java-based application designed to streamline campsite reservations. This syst
 - Add user authentication for enhanced security.
 - Implement real-time updates for campsite availability.
 - Improve UI for better user experience across devices.
-"# Java-Project" 
-"# Java-Project" 
