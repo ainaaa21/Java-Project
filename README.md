@@ -4,8 +4,8 @@ A Java-based application designed to streamline campsite reservations. This syst
 
 ## Features
 - **Customer Interface**: 
-  -**Search and book campsites.**
-  View and manage reservations.
+- **Search and book campsites.**
+- **View and manage reservations.**
 - **Staff Interface**:
   - Manage campsite availability and customer data.
   - Handle booking records.
