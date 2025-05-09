@@ -1,6 +1,6 @@
 # ⛺ **Campsite Booking Management System**  
 
-A **powerful, Java-based** application designed to **streamline campsite reservations** with a seamless experience for both customers and staff. Whether you're planning a weekend getaway or managing a bustling campsite, this system ensures smooth and efficient booking operations.
+A **Java-based** personal project created to explore and demonstrate the fundamentals of building a reservation management system. Designed to simulate real-world campsite booking scenarios, it aims to provide a smooth experience for both users and administrators while showcasing core concepts in backend development, user interface design, and data handling.
 
 ---
 ## 🚀 **Key Features** 
@@ -31,5 +31,3 @@ A **powerful, Java-based** application designed to **streamline campsite reserva
 ## 📌 **How It Works**  
 - **Customers** can browse, book, and manage their reservations effortlessly.  
 - **Staff** can oversee bookings, update campsite availability, and maintain customer records.  
-
-🌟 **A smarter way to manage campsite bookings, ensuring a stress-free outdoor adventure for everyone!** 🌟  
