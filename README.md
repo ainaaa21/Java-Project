@@ -1,6 +1,6 @@
 # ⛺ **Campsite Booking Management System**  
 
-A **Java-based** personal project designed to explore and demonstrate the core principles of building a reservation management system, with a focus on the **MVC architecture**. This project simulates real-world campsite booking scenarios, allowing for hands-on experience with backend development, user interface design, and data management. The goal is to showcase fundamental concepts in software design and architecture rather than creating a fully functional production system.
+A **Java-based** project designed to explore and demonstrate the core principles of building a reservation management system, with a focus on the **MVC architecture**. This project simulates real-world campsite booking scenarios, allowing for hands-on experience with backend development, user interface design, and data management. The goal is to showcase fundamental concepts in software design and architecture rather than creating a fully functional production system.
 
 ---
 ## 🚀 **Key Features**  
